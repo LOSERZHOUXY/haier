@@ -1,0 +1,184 @@
+@charset "utf-8";
+.pindao {
+  padding: 20px 0 0 20px;
+}
+.layout-grid {
+  padding: 10px 0 0 0;
+  height: 380px;
+  overflow: hidden;
+}
+.layout-grid div {
+  float: left;
+  margin-right: 5px;
+}
+.layout-grid .img-box {
+  overflow: hidden;
+  width: 290px;
+  height: 380px;
+}
+.layout-grid .img-box div {
+  float: left;
+}
+.new-qxg {
+  padding: 70px 0 0 0;
+}
+.new-qxg h2 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: 700;
+  text-align: center;
+}
+.new-qxg .goods-box {
+  margin-top: 50px;
+}
+.new-qxg .goods-box .goods-top {
+  padding: 0 10px;
+  background: #FFFFFF;
+  height: 50px;
+  overflow: hidden;
+}
+.new-qxg .goods-box .goods-top h3 {
+  float: left;
+  font-size: 18px;
+  line-height: 29.6px;
+  height: 29.6px;
+  width: 152px;
+  border-right: 1px solid #d2d2d2;
+  margin-top: 10px;
+}
+.new-qxg .goods-box .goods-top ul {
+  overflow: hidden;
+  width: 500px;
+  float: left;
+  /* li:hover{
+					color: #0000FF;
+					border-bottom:2px solid #0058AC;
+				} */
+}
+.new-qxg .goods-box .goods-top ul li {
+  height: 50px;
+  width: 56px;
+  float: left;
+  margin: 0 10px;
+  font-size: 14px;
+  line-height: 50px;
+  cursor: pointer;
+  color: #999999;
+}
+.new-qxg .goods-box .goods-top .goods-dizhi {
+  float: right;
+  overflow: hidden;
+  line-height: 50px;
+  font-size: 12px;
+}
+.new-qxg .goods-box .goods-top .goods-dizhi span {
+  float: left;
+}
+.new-qxg .goods-box .goods-top .goods-dizhi div {
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.new-qxg .goods-box .goods-bottom {
+  height: 600px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.new-qxg .goods-box .goods-bottom .goods-left {
+  height: 600px;
+  width: 840px;
+  float: left;
+}
+.new-qxg .goods-box .goods-bottom .goods-left ul {
+  overflow: hidden;
+}
+.new-qxg .goods-box .goods-bottom .goods-left ul li {
+  background: #FFFFFF;
+  height: 290px;
+  width: 270px;
+  text-align: center;
+  float: left;
+  margin: 10px 10px 0  0;
+  padding: 10px 0 0 0;
+}
+.new-qxg .goods-box .goods-bottom .goods-left ul li a {
+  height: 196px;
+  width: 270px;
+}
+.new-qxg .goods-box .goods-bottom .goods-left ul li a img {
+  height: 196px;
+  width: 196px;
+}
+.new-qxg .goods-box .goods-bottom .goods-left ul li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.new-qxg .goods-box .goods-bottom .goods-right {
+  float: left;
+  height: 590px;
+  width: 350px;
+  background: #FFFFFF;
+  margin-top: 10px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right p:nth-of-type(1) {
+  padding: 40px 0 0 0 ;
+  font-size: 16px;
+  text-align: center;
+}
+.new-qxg .goods-box .goods-bottom .goods-right p:nth-of-type(2) {
+  width: 350px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.new-qxg .goods-box .goods-bottom .goods-right p:nth-of-type(2) span {
+  font-size: 24px;
+  color: red;
+}
+.new-qxg .goods-box .goods-bottom .goods-right p:nth-of-type(3) {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  margin-top: 10px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .goods-right-box {
+  overflow: hidden;
+  width: 285px;
+  height: 340px;
+  padding: 15px;
+  margin: 10px 32.5px 0 32.5px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .goods-right-box .shiji-goods {
+  overflow: hidden;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .goods-right-box .shiji-goods div {
+  float: left;
+  margin-bottom: 24px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .goods-right-box .shiji-goods div img {
+  height: 80px;
+  width: 80px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .goods-right-box .shiji-goods span {
+  float: left;
+  line-height: 80px;
+  margin: 0 13px;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .lijigoumai {
+  text-align: center;
+}
+.new-qxg .goods-box .goods-bottom .goods-right .lijigoumai span {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  background: #e61414;
+  display: inline-block;
+  color: #FFFFFF;
+  margin-top: 20px;
+}

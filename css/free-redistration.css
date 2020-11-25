@@ -1,0 +1,339 @@
+@charset "utf-8";
+.technological-process {
+  height: 96px;
+  width: 100%;
+  background: #F2F2F2;
+  padding: 31px 0;
+  box-sizing: border-box;
+}
+.technological-process .technological {
+  height: 34px;
+  overflow: hidden;
+  position: relative;
+}
+.technological-process .technological div {
+  float: left;
+  height: 34px;
+  width: 156px;
+  background: url(http://cdn09.ehaier.com/sg2019/v5/images/login/rgstep_1.png);
+  line-height: 34px;
+}
+.technological-process .technological div span {
+  float: right;
+  margin-right: 45px;
+}
+.technological-process .technological div i {
+  color: #FFFFFF;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.technological-process .technological div:nth-of-type(1) {
+  background: url(http://cdn09.ehaier.com/sg2019/v5/images/login/rgstep_1.png );
+  margin-left: 100px;
+}
+.technological-process .technological div:nth-of-type(2) {
+  background: url(http://cdn09.ehaier.com/sg2019/v5/images/login/rgstep_2.png);
+}
+.technological-process .technological div:nth-of-type(3) {
+  /* 	background: url(http://cdn09.ehaier.com/sg2019/v5/images/login/rgstep_3.png); */
+  background: url(http://cdn09.ehaier.com/sg2019/v5/images/login/rgstep_4.png);
+}
+.technological-process .technological button {
+  float: right;
+  margin-right: 30px;
+  height: 100%;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+.technological-process .technological button:nth-of-type(1) {
+  margin-right: 150px;
+  color: #000000;
+}
+.technological-process .technological button:nth-of-type(2) {
+  color: #FFFFFF;
+  background: #0000FF;
+}
+.technological-process .technological > span {
+  height: 20px;
+  width: 1px;
+  background: #000000;
+  position: absolute;
+  right: 230px;
+  top: 8px;
+}
+.shop_info_wrap {
+  height: 410px;
+  width: 770px;
+  margin-left: 200px;
+  padding: 12px 0 0 0;
+  position: relative;
+  /* 账户设置 */
+  /* 密码设置 */
+  /* 注册成功 */
+  /* 会员说明 */
+}
+.shop_info_wrap .zhanghushezhi {
+  position: relative;
+}
+.shop_info_wrap .zhanghushezhi .shoujihaoma > div {
+  position: absolute;
+  top: 20px;
+  left: 325px;
+  font-size: 12px;
+  display: none;
+}
+.shop_info_wrap .zhanghushezhi .shoujihaoma > div i {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  float: left;
+}
+.shop_info_wrap .zhanghushezhi .shoujihaoma > div span {
+  float: left;
+}
+.shop_info_wrap .zhanghushezhi > div label {
+  font-size: 14px;
+  width: 85px;
+  height: 40px;
+  padding: 0 10px 0 0;
+  color: #606060;
+  font-weight: 400;
+}
+.shop_info_wrap .zhanghushezhi > div input {
+  padding: 0 0 0 10px;
+  margin-top: 10px;
+  height: 40px;
+  width: 230px;
+  border: 1px #e6e6e6 solid;
+}
+.shop_info_wrap .zhanghushezhi .Verification-Code > div {
+  position: absolute;
+  top: 75px;
+  right: 315px;
+  font-size: 12px;
+  display: none;
+}
+.shop_info_wrap .zhanghushezhi .Verification-Code > div i {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  float: left;
+}
+.shop_info_wrap .zhanghushezhi .Verification-Code > div span {
+  float: left;
+}
+.shop_info_wrap .zhanghushezhi .Verification-Code button {
+  position: absolute;
+  height: 36px;
+  width: 95px;
+  background: #25BDFF;
+  border: none;
+  left: 217px;
+  top: 65px;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+.shop_info_wrap .zhanghushezhi p {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 14px;
+  position: relative;
+}
+.shop_info_wrap .zhanghushezhi p span:nth-of-type(1),
+.shop_info_wrap .zhanghushezhi p span:nth-of-type(3) {
+  margin-left: 8px;
+}
+.shop_info_wrap .zhanghushezhi p span:nth-of-type(2) {
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  top: 4px;
+  left: 42px;
+  background: red;
+}
+.shop_info_wrap .zhanghushezhi p span {
+  color: #606060;
+}
+.shop_info_wrap .zhanghushezhi > button {
+  width: 126px;
+  height: 40px;
+  color: #FFFFFF;
+  background: #2979FF;
+  border: none;
+  margin-left: 80PX;
+  margin-top: 10px;
+}
+.shop_info_wrap .mimashezhi {
+  position: relative;
+}
+.shop_info_wrap .mimashezhi div:nth-of-type(1) {
+  margin-top: 8px;
+}
+.shop_info_wrap .mimashezhi div label {
+  font-size: 14px;
+  width: 85px;
+  height: 40px;
+  padding: 0 10px 0 0;
+  color: #606060;
+  font-weight: 400;
+}
+.shop_info_wrap .mimashezhi div input {
+  height: 40px;
+  width: 230px;
+  border: 1px #e6e6e6 solid;
+  padding: 0 0 0 10px;
+}
+.shop_info_wrap .mimashezhi .Verification-CodeTwo button {
+  position: absolute;
+  height: 36px;
+  width: 95px;
+  background: #25BDFF;
+  border: none;
+  left: 223px;
+  top: 56px;
+  border-radius: 4px;
+}
+.shop_info_wrap .mimashezhi p {
+  margin-left: 100px;
+  font-size: 14px;
+  position: relative;
+}
+.shop_info_wrap .mimashezhi p a {
+  margin-left: 8px;
+}
+.shop_info_wrap .mimashezhi p span {
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  top: 4px;
+  left: 42px;
+  background: red;
+}
+.shop_info_wrap .mimashezhi > button {
+  width: 126px;
+  height: 40px;
+  color: #FFFFFF;
+  background: #2979FF;
+  border: none;
+  margin-left: 110PX;
+}
+.shop_info_wrap .mimashezhi .tishi {
+  margin-left: 80px;
+  height: 40px;
+  overflow: hidden;
+  opacity: 0;
+}
+.shop_info_wrap .mimashezhi .tishi span {
+  text-align: center;
+  float: left;
+  width: 50px;
+  line-height: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  /* background:#f79100 ; */
+  background: #c4c4c4;
+  color: #FFFFFF;
+}
+.shop_info_wrap .zucechenggong p {
+  margin-top: 40px;
+}
+.shop_info_wrap .zucechenggong button {
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.shop_info_wrap .zucechenggong button:nth-of-type(1) {
+  background: #999999;
+}
+.shop_info_wrap .zucechenggong button:nth-of-type(2) {
+  background: #005aa9;
+}
+.shop_info_wrap form:nth-of-type(2) p {
+  color: #b2aabd;
+}
+.shop_info_wrap .announce-container {
+  height: 426px;
+  width: 252px;
+  background: #f6f6f6;
+  padding: 15px 10px 5px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -100px;
+  top: 30px;
+}
+.shop_info_wrap .announce-container .tit {
+  font-size: 14px;
+  color: #797979;
+  margin-bottom: 5px;
+}
+.shop_info_wrap .announce-container .cont p {
+  color: #b8b8b8;
+}
+.shop_info_wrap .announce-container .cont ul li {
+  list-style: disc;
+  margin-left: 30px;
+  color: #b8b8b8;
+}
+.Baner > h2 {
+  font-size: 20px;
+  color: #606060;
+}
+.Baner a {
+  float: right;
+  color: 005AAA;
+}
+.shop-body {
+  position: relative;
+}
+.shop-body .xiaoxitishi {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  display: none;
+}
+.shop-body .xiaoxitishi .tishibox {
+  width: 360px;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.shop-body .xiaoxitishi .tishibox h2 {
+  height: 42PX;
+  background: #005AAA;
+  padding: 0 15PX;
+  line-height: 42px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.shop-body .xiaoxitishi .tishibox h2 span {
+  float: right;
+}
+.shop-body .xiaoxitishi .tishibox > div {
+  padding: 0 8px 18px 18px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+.shop-body .xiaoxitishi .tishibox > div p:nth-of-type(1) {
+  padding: 20px 20px 10px;
+}
+.shop-body .xiaoxitishi .tishibox > div p:nth-of-type(2) {
+  text-align: center;
+  margin-top: 8px;
+}
+.shop-body .xiaoxitishi .tishibox > div p:nth-of-type(2) button {
+  color: #FFFFFF;
+  border: none;
+  width: 54px;
+  height: 25px;
+  background: #0059aa;
+}

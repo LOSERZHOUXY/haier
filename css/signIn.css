@@ -1,0 +1,221 @@
+@charset "utf-8";
+.shop-body {
+  height: 100%;
+  width: 100%;
+}
+.shop-body .Baner {
+  height: 89px;
+  background: #FFFFFF;
+  padding: 20px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.shop-body .Baner img {
+  float: left;
+}
+.shop-body .Baner img:nth-of-type(2) {
+  margin-left: -30px;
+  margin-top: -10px;
+}
+.shop-body .banner-boder {
+  width: 100%;
+  height: 1PX;
+  border-top: solid 1px #EEEEEE;
+  display: block;
+}
+.shop-body .shop-login {
+  background: url(http://cdn09.ehaier.com/sg2019/v5/images/shop_login_wrap_bg.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  height: 540px;
+  width: 1519px;
+}
+.shop-body .shop-login .box-login {
+  width: 1000px;
+  height: 442px ;
+  background: red;
+  margin: 0 auto;
+  background: transparent;
+  position: relative;
+}
+.shop-body .shop-login .box-login .login_register {
+  position: absolute;
+  top: 50PX;
+  right: 0PX;
+  width: 490px;
+  height: 407px;
+  background: #e8e8e8;
+  border-radius: 3px;
+}
+.shop-body .shop-login .box-login .login_register .box-register {
+  width: 490px;
+  height: 399px;
+  background: #FFFFFF;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.shop-body .shop-login .box-login .login_register .box-register h2 {
+  padding: 25px 0 15px 15px;
+  box-sizing: border-box;
+  font-size: 22px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+.shop-body .shop-login .box-login .login_register .box-register h2 a {
+  margin-right: 20px;
+  overflow: hidden;
+  float: right;
+  font-size: 12px;
+}
+.shop-body .shop-login .box-login .login_register .box-register .login_Tab {
+  width: 488px;
+  height: 47px;
+  padding: 0 112px;
+  line-height: 47px;
+}
+.shop-body .shop-login .box-login .login_register .box-register .login_Tab a {
+  color: #000;
+  text-align: center;
+  height: 47px;
+  width: 130px;
+  float: left;
+  border-bottom: 2px solid #e4e4e4 ;
+  margin: 0;
+}
+.shop-body .shop-login .box-login .login_register .box-register .login_Tab a:hover {
+  color: #32beff;
+}
+.shop-body .shop-login .box-login .login_register .box-register form {
+  height: 239px;
+  width: 488px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box {
+  height: 239px;
+  width: 488px;
+  padding: 35px 112px 20px;
+  position: relative;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > div {
+  height: 54px;
+  width: 260px;
+  position: relative;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > div > span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > div input {
+  padding: 3px 3px 3px 38px;
+  width: 260px;
+  height: 34px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > div label {
+  position: absolute;
+  color: #a4a4a4;
+  left: 38px;
+  top: 7px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > div p {
+  color: red;
+  display: none;
+  font-size: 12px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box .forget {
+  overflow: hidden;
+  text-align: right;
+  height: 30px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box .forget a {
+  color: #005aaa;
+  font-size: 12px;
+  float: right;
+  font-weight: 400;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box .sign-in-user {
+  background: #00BFFF;
+  text-align: center;
+  line-height: 40px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  height: 40px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box .sign-in-user:hover {
+  background: #0000FF;
+  cursor: pointer;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .form-box > span {
+  width: 100%;
+  height: 1px ;
+  background: #999999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods {
+  width: 488px;
+  height: 50px;
+  /* background: red; */
+  padding: 14px 0;
+  font-size: 12px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul {
+  overflow: hidden;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li {
+  float: left;
+  margin-left: 12px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li a {
+  color: #101010;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li a:nth-of-type(1) span {
+  color: #db4b4b;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li:nth-of-type(3) a span {
+  color: #febd21;
+  font-size: 14px;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li:nth-of-type(4) a span {
+  color: #b5221f;
+}
+.shop-body .shop-login .box-login .login_register .box-register form .other-login-methods ul li:nth-of-type(5) a span {
+  color: #0e62b0;
+}
+.shop-body .last-firts {
+  background: #FFFFFF;
+  height: 165px;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.shop-body .last-firts .wrapper p {
+  text-align: center;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.shop-body .last-firts .wrapper p span {
+  height: 10px;
+  width: 1px;
+  background: #c7c7c7;
+  display: inline-block;
+  margin: 0 5px;
+}
+.shop-body .last-firts .wrapper p a:hover {
+  color: blue;
+}
+.shop-body .last-firts .wrapper p a {
+  color: #666;
+}
+.shop-body .last-firts .wrapper p:nth-of-type(2) a {
+  margin-left: 10px;
+}
+.shop-body .last-firts .wrapper P:nth-of-type(3) {
+  color: #999999;
+}
